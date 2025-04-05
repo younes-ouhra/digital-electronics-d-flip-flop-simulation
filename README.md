@@ -1,5 +1,5 @@
 # Digital Electronics - D-Flip-Flop
-## About
+## About:
 <p>This project was built along with the Laboratory Digital Electronics at the Technical University of Applied Sciences of Regensburg (OTH Regensburg), Bavaria, Germany. The simulation of the D-Flip-Flop with AMD Vivado is the focus of the project.</p>
 
 <div align="center">
@@ -13,7 +13,7 @@
     <img src="https://github.com/user-attachments/assets/1dca5919-ada8-4bee-93af-bb60b925e9b0" alt="Testbild"> (2)
 </div>
 
-## Simulation
+## Simulation:
 <p>After creating a testbench for this project, you can see how the output Q (as digital signal) changes when the rising edge of the clock comes and gets the value of the signal D.</p>
 
 ![d_flip_flop_simulation_result](https://github.com/user-attachments/assets/aa3a659f-6cd1-417f-a313-2d9507349b07)
