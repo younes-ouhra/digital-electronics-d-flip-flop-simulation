@@ -8,12 +8,12 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity tb_Aufgabe2_D is
-end tb_Aufgabe2_D;
+entity tb_D_flip_flop is
+end tb_D_flip_flop;
 
-architecture tb of tb_Aufgabe2_D is
+architecture tb of tb_D_flip_flop is
 
-    component Aufgabe2_D
+    component D_flip_flop
         port (CLK : in std_logic;
               D   : in std_logic;
               Q   : out std_logic);
@@ -25,7 +25,7 @@ architecture tb of tb_Aufgabe2_D is
 
 begin
 
-    dut : Aufgabe2_D
+    dut : D_flip_flop
     port map (CLK => CLK,
               D   => D,
               Q   => Q);
@@ -41,7 +41,7 @@ begin
 
 end tb;
 
-configuration cfg_tb_Aufgabe2_D of tb_Aufgabe2_D is
+configuration cfg_tb_D_flip_flop of tb_D_flip_flop is
     for tb
     end for;
-end cfg_tb_Aufgabe2_D;
+end cfg_tb_D_flip_flop;
