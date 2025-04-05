@@ -9,13 +9,13 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 
-entity Aufgabe2_D is
+entity D_flip_flop is
     Port ( CLK : in STD_LOGIC;
            D : in STD_LOGIC;
            Q : out STD_LOGIC);
-end Aufgabe2_D;
+end D_flip_flop;
 
-architecture Behavioral of Aufgabe2_D is
+architecture Behavioral of D_flip_flop is
 
 begin
     process(CLK)
